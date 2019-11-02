@@ -2,7 +2,6 @@
 
 The code in this repo can be used to populate a postal vote application form when provided with the necessary text input and an image of a signature on a white back ground. The intention of this code is to provide the back end for a tool that allows a user to populate and submit a postal vote application form using just a smart phone.
 
-Please send comments/questions to rdchadwick64@gmail.com
 
 ### Repo files
 - 'arial.ttf': the font library used to populate text on form 
@@ -41,3 +40,6 @@ Coordinates of text boxes have been hard coded. Using the PIL draw feature add t
 
 #### Processing signature
 Take the threshold of the image (pick a darkness threshold on rgb scale, anything  lighter becomes white, anything darker becomes black). Produce a table of the image (x,y coordinate of every black pixel). Using DBScan (a clustering algorithm) identify any black pixels that do not have at least 4 other black pixels in a 3 pixel range (without this step a stray black pixels can result in incorrect crop coordinates). Ignoring the stray black pixels, crop the image using the max and min black pixel coordinates in both directions. Resize image to fit inside signature box, replace signature box with image.
+
+
+###### Please send comments/questions to rdchadwick64@gmail.com
