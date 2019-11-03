@@ -2,7 +2,7 @@
 
 The code in this repo can be used to populate a postal vote application form when provided with the necessary text input and an image of a signature on a white back ground. The intention of this code is to provide the back end for a tool that allows a user to populate and submit a postal vote application form using just a smart phone.
 
-### [JUMP TO DEMO](https://github.com/richchad/postal_vote_filler/blob/master/Demo.ipynb)
+### [JUMP TO DEMO](https://github.com/richchad/postal_vote_filler/blob/master/Demo.ipynb)
 
 
 ### Repo files
