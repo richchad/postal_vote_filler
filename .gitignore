@@ -1,2 +1,6 @@
 *.txt
 *.json
+signature
+processed
+Secret.ipynb
+send_email.ipynb
