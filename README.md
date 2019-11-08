@@ -4,6 +4,7 @@ The code in this repo can be used to populate a postal vote application form whe
 
 ### [JUMP TO DEMO](https://github.com/richchad/postal_vote_filler/blob/master/Demo.ipynb)
 
+### See 'test.ipynb' notebook for functioning version using google forms with google api to process form responses.
 
 ### Repo files
 - 'arial.ttf': the font library used to populate text on form 
